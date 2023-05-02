@@ -1,4 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Animais, Animal } from './animais';
 import { Observable, catchError, mapTo, of, throwError } from 'rxjs';
